@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		0B8105881A6D333A00EFDF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8105871A6D333A00EFDF4B /* AppDelegate.swift */; };
 		0B81058B1A6D333A00EFDF4B /* WYPHelloWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B8105891A6D333A00EFDF4B /* WYPHelloWorld.xcdatamodeld */; };
-		0B81058D1A6D333A00EFDF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B81058C1A6D333A00EFDF4B /* ViewController.swift */; };
 		0B8105901A6D333A00EFDF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B81058E1A6D333A00EFDF4B /* Main.storyboard */; };
 		0B8105921A6D333A00EFDF4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8105911A6D333A00EFDF4B /* Images.xcassets */; };
-		0B8105951A6D333A00EFDF4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B8105931A6D333A00EFDF4B /* LaunchScreen.xib */; };
 		0B8105A11A6D333A00EFDF4B /* WYPHelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8105A01A6D333A00EFDF4B /* WYPHelloWorldTests.swift */; };
+		0BABA2521A7929D2007182FF /* WYPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BABA2511A7929D2007182FF /* WYPNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +30,13 @@
 		0B8105861A6D333A00EFDF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B8105871A6D333A00EFDF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B81058A1A6D333A00EFDF4B /* WYPHelloWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WYPHelloWorld.xcdatamodel; sourceTree = "<group>"; };
-		0B81058C1A6D333A00EFDF4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B81058F1A6D333A00EFDF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B8105911A6D333A00EFDF4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0B8105941A6D333A00EFDF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0B81059A1A6D333A00EFDF4B /* WYPHelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYPHelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B81059F1A6D333A00EFDF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B8105A01A6D333A00EFDF4B /* WYPHelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYPHelloWorldTests.swift; sourceTree = "<group>"; };
+		0BABA24D1A7927FD007182FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0BABA2511A7929D2007182FF /* WYPNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYPNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +79,11 @@
 			isa = PBXGroup;
 			children = (
 				0B8105871A6D333A00EFDF4B /* AppDelegate.swift */,
-				0B81058C1A6D333A00EFDF4B /* ViewController.swift */,
 				0B81058E1A6D333A00EFDF4B /* Main.storyboard */,
 				0B8105911A6D333A00EFDF4B /* Images.xcassets */,
-				0B8105931A6D333A00EFDF4B /* LaunchScreen.xib */,
 				0B8105891A6D333A00EFDF4B /* WYPHelloWorld.xcdatamodeld */,
 				0B8105851A6D333A00EFDF4B /* Supporting Files */,
+				0BABA2511A7929D2007182FF /* WYPNavigationController.swift */,
 			);
 			path = WYPHelloWorld;
 			sourceTree = "<group>";
@@ -164,6 +162,7 @@
 				TargetAttributes = {
 					0B8105811A6D333A00EFDF4B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = W24H4ZR8PD;
 					};
 					0B8105991A6D333A00EFDF4B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -196,7 +195,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B8105901A6D333A00EFDF4B /* Main.storyboard in Resources */,
-				0B8105951A6D333A00EFDF4B /* LaunchScreen.xib in Resources */,
 				0B8105921A6D333A00EFDF4B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B81058D1A6D333A00EFDF4B /* ViewController.swift in Sources */,
+				0BABA2521A7929D2007182FF /* WYPNavigationController.swift in Sources */,
 				0B81058B1A6D333A00EFDF4B /* WYPHelloWorld.xcdatamodeld in Sources */,
 				0B8105881A6D333A00EFDF4B /* AppDelegate.swift in Sources */,
 			);
@@ -244,16 +242,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				0B81058F1A6D333A00EFDF4B /* Base */,
+				0BABA24D1A7927FD007182FF /* zh-Hans */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0B8105931A6D333A00EFDF4B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B8105941A6D333A00EFDF4B /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -293,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -340,7 +331,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WYPHelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,7 +344,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WYPHelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +406,7 @@
 				0B8105A61A6D333A00EFDF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B8105A71A6D333A00EFDF4B /* Build configuration list for PBXNativeTarget "WYPHelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +415,7 @@
 				0B8105A91A6D333A00EFDF4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
